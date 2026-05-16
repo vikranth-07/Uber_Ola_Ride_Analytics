@@ -111,7 +111,7 @@ st.markdown(
 )
 
 # LOAD DATA
-df = pd.read_csv("cleaned_uber_data.csv")
+df = pd.read_csv("sample_uber_data.csv")
 
 # KPI SECTION
 total_revenue = df['fare_amount'].sum()
